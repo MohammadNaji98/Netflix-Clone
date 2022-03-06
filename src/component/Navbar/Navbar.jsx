@@ -9,6 +9,7 @@ function Navbar() {
                 <Link to="/" id="logo"><h1>NETFLIX CLONE</h1></Link>
                 <nav>
                     <Link to="/">Home Page</Link>
+                    <Link to="/addMovie">Favorite Movie</Link>
                 </nav>
             </header>
         </>
