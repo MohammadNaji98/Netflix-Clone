@@ -36,7 +36,7 @@ export default function ModalMonie({ data, show, handleClose}) {
 
     return (
         <>
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} >
                 <Modal.Header closeButton>
                     <Modal.Title>{data.title}</Modal.Title>
                 </Modal.Header>
