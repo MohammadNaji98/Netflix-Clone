@@ -14,6 +14,10 @@ export default function Movie({ data }) {
     function handleLessMore(){
         setSeeMore(!seeMore);
     }
+    function addToFavList()
+    {
+
+    }
     return (
         <>
         <Card style={{ width: '18rem' }}>
@@ -28,7 +32,7 @@ export default function Movie({ data }) {
                     <Button variant="danger" onClick={handleShow}>Add to the favorite list</Button>
                 </Card.Body>
             </Card>
-            <ModalMovie  data={data} show={show} handleClose={handleClose}/>
+            <ModalMovie  data={data} show={show} handleClose={handleClose} addToFavList={ addToFavList}/>
         </>
             
     )
